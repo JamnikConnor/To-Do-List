@@ -1,0 +1,92 @@
+body{
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+main{
+    height: 60vh;
+    width: 80vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    margin-top: 100px;
+    border-radius: 20px;
+    text-align: center;
+}
+#formatowanie, #wprowadzanie{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+#select-czcionka{
+    padding-right: 5px;
+}
+.input-formatowanie{
+    margin: 10px;
+    text-align: center;
+    width: 105px;
+    background-color: black;
+    color: white;
+    border: solid 1px white;
+}
+
+ul{
+    font-family: Lato;
+    list-style: none;
+    padding:0;
+    overflow-y: scroll;
+    height: 100%;
+    margin-left: 20px;
+}
+
+#listaobszar{
+    width: 100%;
+    text-align: center;
+    height: 30%;
+    margin-bottom: 20px;
+}
+#text-input{
+    margin-right: 5px;
+    background-color: black;
+    color: white;
+    border: solid 1px white;
+}
+#dodaj{
+    margin-left: 5px;
+    background-color: black;
+    color: white;
+}
+
+li span{
+    margin: 0px 5px 0px 5px;
+}
+span.usun{
+    cursor: pointer;
+}
+
+/* mniejszy ekran */
+@media (max-width:700px) {
+    main{
+        width: 100vw;
+        height:90vh;
+        margin: 0px;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-content: space-evenly;
+        font-size: 12px;
+        overflow-y: hidden;
+    }
+    .input-formatowanie{
+        width: 60px;
+        font-size: 12px;
+    }
+    #listaobszar{
+        height: 200px;
+    }
+}
