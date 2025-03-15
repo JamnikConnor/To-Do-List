@@ -61,7 +61,9 @@ ul{
     background-color: black;
     color: white;
 }
-
+li{
+    text-align:center;
+}
 li span{
     margin: 0px 5px 0px 5px;
 }
