@@ -63,7 +63,7 @@ function dodajwpis(event){
     li.appendChild(span)
     li.appendChild(spanusun)
     }
-  
+      inputwpis.value = none
 }
 
 
