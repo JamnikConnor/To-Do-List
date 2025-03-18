@@ -62,7 +62,6 @@ function dodajwpis(event){
     li.appendChild(checkbox)
     li.appendChild(span)
     li.appendChild(spanusun)
-    inputwpis.innerHTML = none
     }
 }
 
